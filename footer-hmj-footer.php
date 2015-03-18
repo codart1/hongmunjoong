@@ -11,9 +11,9 @@
 	$asset_uri = get_template_directory_uri() . "/hmj-assets/";
 	$img_main_uri = $asset_uri . "img/0.main/";
 	$css_uri = $asset_uri . "css/";
+	$js_uri = $asset_uri . "js/";
  ?>
 
-	</div><!-- #content -->
 	
 	<link rel="stylesheet" href="<?php echo $css_uri . 'customized.css' ?>">
 	<link rel="stylesheet" href="<?php echo $css_uri . 'hmj_footer.css' ?>">
@@ -43,6 +43,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="<?php echo $js_uri . 'customized.js' ?>"></script>
 </body>
 </html>

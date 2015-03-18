@@ -285,3 +285,6 @@ if ( class_exists( 'jigoshop' ) ) {
  */
 require get_template_directory() . '/inc/jigoshop-setup.php';
 }
+
+require get_template_directory() . '/hmj-helper/paths.php';
+
