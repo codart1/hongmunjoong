@@ -289,10 +289,10 @@ function dazzling_featured_slider() {
            $slidecat = of_get_option('dazzling_slide_categories');
              $query_circle = new WP_Query( array( 'cat' => $slidecat, 'p' => 4 ) );
              echo '<div class="flex-control-nav-middle">';
-             echo get_the_post_thumbnail();
+             echo '<img src="' . hmj_img_main('circle_img.png') . '">';
              echo '</div>';
               echo '<div class="flex-control-nav-slogan">';
-             echo '<img src="wp-content/uploads/2015/03/slogan_img.png">';
+             echo '<img src="' . hmj_img_main('slogan_img.png') . '">';
              echo '</div>';
         echo '<ul class="slides">';
 

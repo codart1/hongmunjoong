@@ -233,3 +233,20 @@ body {
 .news {
 	background: #F8F7F5;
 }
+
+/*THINK*/
+.think-item { 
+	border: 1px solid #C7C6C4;
+	margin: 0;
+	padding: 20px 10px;
+}
+
+.think-item-label {
+	font-size: 22px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.think-item + .think-item {
+	margin-top: 15px;
+}

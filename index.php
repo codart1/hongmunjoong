@@ -23,7 +23,7 @@ get_header(); ?>
 	<?php echo get_template_part( 'hmj-partials/social' ); ?>
 	<?php echo get_template_part( 'hmj-partials/activities' ); ?>
 	<?php echo get_template_part( 'hmj-partials/news' ); ?>
-
+	<?php echo get_template_part( 'hmj-partials/think' ); ?>
 
 <?php //get_sidebar(); ?>
 <?php get_footer("hmj-footer"); ?>
